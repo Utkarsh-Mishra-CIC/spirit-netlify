@@ -142,6 +142,7 @@ article,aside,details,figcaption,figure,footer,header,main,menu,nav,section
 		.site-btn:focus,
 		.site-btn:hover{background-color:#7b67c7;text-decoration:none}
 		.icon-calendar:before{content:'\e800'}
+		.icon-contact:before{content:'\1f4f1'}
 		.icon-lock:before{content:'\e801'}
 		.icon-mail:before{content:'\e802'}
 		.icon-heart:before{content:'\e803'}

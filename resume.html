@@ -5,7 +5,6 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<!-- noop.pw-->
 	<link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png?v=8jjL6Bw88O">
 	<link rel="icon" type="image/png" href="portfolio.png" sizes="32x32">
 	<link rel="icon" type="image/png" href="portfolio.png" sizes="16x16">
@@ -37,7 +36,7 @@
 			<div>
 				<h1>Web</h1>
 				<ul>
-					<li><a rel="noopener noreferrer" href="https://utkarsh-vitae.netlify.com" title="utkarsh-vitae.netlify.com"><i class="icon icon-link"></i><span>utkarsh-vitae.netlify.com</span></a></li>
+					<li><a rel="noopener noreferrer" href="https://utkarshm.me" title="utkarshm.me"><i class="icon icon-link"></i><span>utkarshm.me</span></a></li>
 					<li><a rel="noopener noreferrer" href="https://github.com/karshd3v" title="github.com/karshd3v"><i class="icon icon-git"></i><span>github.com/karshd3v</span></a></li>
 					<li><a rel="noopener noreferrer" href="https://www.linkedin.com/in/utkarsh-mishra" title="linkedin.com/in/utkarsh-mishra"><i class="icon icon-linkedin"></i><span>linkedin.com/in/utkarsh-mishra</span></a></li>
 					<li><a rel="noopener noreferrer" href="https://www.drupal.org/u/utkarsh_mishra" title="drupal.org/u/utkarsh_mishra"><i class="icon icon-link"></i><span>drupal.org/u/utkarsh_mishra</span></a></li>
@@ -46,6 +45,7 @@
 			<div>
 				<h1>Info</h1>
 				<ul>
+					<li><span><i class="icon icon-contact"></i><a href="tel:+91-9560826975">+91-9560826975</a></span></li>
 					<li><a href="mailto:iamutkarshmishra@gmail.com"><i class="icon icon-mail"></i><span>iamutkarshmishra@gmail.com</span></a></li>
 					<li><span><i class="icon icon-location"></i> Bangalore, India</span></li>
 				</ul>
@@ -53,9 +53,10 @@
 		</section>
 		<section class="cover">
 			<h1>Summary</h1>
-			<p>My pri­mary re­search in­ter­est is in Game Development, Data Science,
-				Mathematics. The scope of my pro­jects also in­clude Scientific Computing
-				and Machine Learning. Currently an Unity Developer at Mimyk Medical Simulation, IISc Bangalore.</p>
+			<p>My pri­mary re­search in­ter­est is in Software Development.
+				The scope of my pro­jects also in­clude Game Development, Web Development, Scientific Computing
+				and Machine Learning. Currently an Software Engineer at Mimyk Medical Simulations, IISc Bangalore.</p> 
+			<!-- Also a part time Project Assistant under Prof. G.K. Ananthasuresh.</p> -->
 		</section>
 		<section class="xp">
 			<h1>Experience</h1>
@@ -72,24 +73,53 @@
 							<span><i class="icon icon-calendar"></i> July 2018 -&gt; Present</span>
 							<!--span class="duration">4 Months</span-->
 						</p>
-						<p class="position">Unity Developer</p>
+						<p class="position">Software Engineer</p>
 						<ul class="tags">
 							<li>Unity3D</li>
 							<li>Python - Flask</li>
-							<li>D3.js</li>
+							<li>JavaScript - Websockets, D3.js</li>
+							<li>SQLite</li>
 							<li>HLSL and Compute Shaders</li>
+							<li>AWS</li>
+							<!-- <li>Arduino(Embedded C)</li> -->
 						</ul>
 					</aside>
 					<div class="description">
-						<h3>Endoscope Simulation</h3>
+						<h3>Endoscope Simulation(EndoMimyk)</h3>
 						<p>A simulation for experts or trainees to get a hands on with the endoscopy simulation.</p>
-						<p>At Mimyk Medical Simulation, I am re­spon­si­ble for building the database management in <code>Flask</code> along with some metrics and <code>d3.js</code> graphs regarding the same along with a <code>WebGL</code> build for reports. I also created some shaders for the WebGL build which depicts the ViewMetrics Report, I am also responsible for the <code>Chromium Embedded Framework (CEF)</code> interaction with Unity and Flask. Currently working refining some changes all over in the demo. </p>
+						<p>At Mimyk Medical Simulation, I am re­spon­si­ble for building the backend base using <code>Flask</code> which communicates through <code>C# Websockets</code> to share the live data between websocket services. I am also responsible for implemeting the UI design workflow of the app for various devices which includes some metrics created with <code>d3.js</code>.</p>
+						<p>In Unity3D I am responsible for designing some exercises to interact and achieve some visual map which was fullfilled using <code>HLSL shaders</code> and <code>Compute Shaders</code> finally the report also had some <code>WebGL</code> and Javascript interaction with server. Currently working on refining the UI and backend for better User Experience and adding a <code>WebRTC</code> client for better simulation rate. </p>
+						<p> As per the requirements, I also modified the Hardware-Software flow with the simulation for better user experience and no failure instances.</p>
 						<p class="website">
 							<a rel="noopener noreferrer" href="http://www.mimyk.com/" title="mimyk.com/">
 								<i class="icon icon-link"></i>
 								<span>mimyk.com/</span>
 							</a>
 						</p>
+					</div>
+				</li>
+				<li>
+					<aside>
+						<h2 class="company">Indian Institute of Science</h2>
+						<p class="location">
+							<span>
+								<i class="icon icon-location"></i>Bangalore</span>
+							</span>
+						</p>
+						<p class="dates">
+							<span><i class="icon icon-calendar"></i> September 2018 -&gt; Present</span>
+						</p>
+						<p class="position">Project Assistant (part-time)</p>
+						<ul class="tags">
+							<li>Python</li>
+							<li>MATLAB</li>
+							<li>Paraview/Meshlab</li>
+						</ul>
+					</aside>
+					<div class="description">
+						<h3>Topology Optimization Project, a collaboration of IISc and Seimens Bangalore</h3>
+						<p>To optimize the materialistic properties of any object for example GE Bracket.</p>
+						<p>At IISc, I am re­spon­si­ble for developing the codebase for topology optimization algorithm to make it work with any topology derative equation.</p>
 					</div>
 				</li>
 				<li>
@@ -107,9 +137,9 @@
 						<p class="position">Software Developer Intern</p>
 						<ul class="tags">
 							<li>Drupal</li>
-							<li>NLP</li>
 							<li>PHP</li>
 							<li>MySQL</li>
+							<li>NLP</li>
 						</ul>
 					</aside>
 					<div class="description">
@@ -659,17 +689,17 @@
 					<ul>
 						<li>Python <i><span class="small-caps">●●●●</span></i></li>
 						<li>C/C++ <i><span class="small-caps">●●●</span></i></li>
-						<li>HTML/CSS <i><span class="small-caps">●●●●</span></i></li>
+						<li>HTML/CSS/JS <i><span class="small-caps">●●●●</span></i></li>
 						<li>MySQL/PHP <i><span class="small-caps">●●●●</span></i></li>
 					</ul>
 				</li>
 				<li>
 					<h2>Design</h2>
 					<ul>
-						<li>Blender <i><span class="small-caps">●●●</span></i></li>
 						<li>Unity3D <i><span class="small-caps">●●●●</span></i></li>
-						<li>GIMP <i><span class="small-caps">●●●</span></i></li>
-						<li>User Interface <i><span class="small-caps">●●●</span></i></li>
+						<li>Blender <i><span class="small-caps">●●●</span></i></li>
+						<li>Adobe Xd <i><span class="small-caps">●●●</span></i></li>
+						<li>UI/UX <i><span class="small-caps">●●●●</span></i></li>
 					</ul>
 				</li>
 				<li>
